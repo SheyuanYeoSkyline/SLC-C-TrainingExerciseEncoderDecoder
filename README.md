@@ -1,4 +1,4 @@
-# Training Excercise Encoder/Decoder
+# Training Exercise Encoder/Decoder
 
 ## Description
 

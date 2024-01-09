@@ -45,8 +45,8 @@ Any inquiries can be addressed to:
 -->
 
 <Protocol xmlns="http://www.skyline.be/protocol">
-	<Name>Excercise Encoder/Decoder</Name>
-	<Description>Excercise Encoder/Decoder DataMiner connector</Description>
+	<Name>Exercise Encoder/Decoder</Name>
+	<Description>Exercise Encoder/Decoder DataMiner connector</Description>
 	<Version>1.0.0.1</Version>
 	<IntegrationID>DMS-DRV-</IntegrationID>
 	<Provider>Skyline Communications</Provider>
