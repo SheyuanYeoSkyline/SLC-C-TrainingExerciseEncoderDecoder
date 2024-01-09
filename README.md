@@ -1,4 +1,4 @@
-# Basic Training Excercise
+# Training Excercise Encoder/Decoder
 
 ## Description
 
