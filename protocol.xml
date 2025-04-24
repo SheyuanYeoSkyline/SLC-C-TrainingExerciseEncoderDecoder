@@ -55,7 +55,18 @@ Any inquiries can be addressed to:
 	<DeviceOID>00</DeviceOID>
 	<ElementType>virtual</ElementType>
 	<Type relativeTimers="true">virtual</Type>
-	<Display defaultPage="General" pageOrder="General" wideColumnPages=""/>
+	<Display defaultPage="General" pageOrder="General;----------;Encoder;Decoder" wideColumnPages="">
+		<Pages>
+			<Page>
+				<Name>Encoder</Name>
+				<Visibility default="false" overridePID="1" value="1" />
+			</Page>
+			<Page>
+				<Name>Decoder</Name>
+				<Visibility default="false" overridePID="1" value="2" />
+			</Page>
+		</Pages>
+	</Display>
 	<SNMP includepages="true">auto</SNMP>
 
 	<Compliancies>
@@ -153,9 +164,9 @@ Any inquiries can be addressed to:
 				<RTDisplay>true</RTDisplay>
 				<Positions>
 					<Position>
-						<Page>General</Page>
+						<Page>Encoder</Page>
 						<Column>0</Column>
-						<Row>3</Row>
+						<Row>1</Row>
 					</Position>
 				</Positions>
 			</Display>
@@ -203,9 +214,9 @@ Any inquiries can be addressed to:
 				<Decimals>3</Decimals>
 				<Positions>
 					<Position>
-						<Page>General</Page>
+						<Page>Encoder</Page>
 						<Column>0</Column>
-						<Row>4</Row>
+						<Row>2</Row>
 					</Position>
 				</Positions>
 				<Range>
@@ -244,9 +255,9 @@ Any inquiries can be addressed to:
 				<RTDisplay>true</RTDisplay>
 				<Positions>
 					<Position>
-						<Page>General</Page>
+						<Page>Encoder</Page>
 						<Column>0</Column>
-						<Row>5</Row>
+						<Row>3</Row>
 					</Position>
 				</Positions>
 			</Display>
@@ -281,9 +292,9 @@ Any inquiries can be addressed to:
 				<RTDisplay>true</RTDisplay>
 				<Positions>
 					<Position>
-						<Page>General</Page>
+						<Page>Encoder</Page>
 						<Column>0</Column>
-						<Row>5</Row>
+						<Row>3</Row>
 					</Position>
 				</Positions>
 			</Display>
@@ -329,9 +340,9 @@ Any inquiries can be addressed to:
 				</Range>
 				<Positions>
 					<Position>
-						<Page>General</Page>
+						<Page>Encoder</Page>
 						<Column>0</Column>
-						<Row>6</Row>
+						<Row>4</Row>
 					</Position>
 				</Positions>
 			</Display>
@@ -357,9 +368,9 @@ Any inquiries can be addressed to:
 				</Range>
 				<Positions>
 					<Position>
-						<Page>General</Page>
+						<Page>Encoder</Page>
 						<Column>0</Column>
-						<Row>6</Row>
+						<Row>4</Row>
 					</Position>
 				</Positions>
 			</Display>
@@ -394,9 +405,9 @@ Any inquiries can be addressed to:
 				<RTDisplay>true</RTDisplay>
 				<Positions>
 					<Position>
-						<Page>General</Page>
+						<Page>Encoder</Page>
 						<Column>0</Column>
-						<Row>7</Row>
+						<Row>5</Row>
 					</Position>
 				</Positions>
 			</Display>
@@ -431,9 +442,9 @@ Any inquiries can be addressed to:
 				<RTDisplay>true</RTDisplay>
 				<Positions>
 					<Position>
-						<Page>General</Page>
+						<Page>Encoder</Page>
 						<Column>0</Column>
-						<Row>7</Row>
+						<Row>5</Row>
 					</Position>
 				</Positions>
 			</Display>
@@ -469,9 +480,9 @@ Any inquiries can be addressed to:
 				<RTDisplay>true</RTDisplay>
 				<Positions>
 					<Position>
-						<Page>General</Page>
+						<Page>Decoder</Page>
 						<Column>0</Column>
-						<Row>11</Row>
+						<Row>1</Row>
 					</Position>
 				</Positions>
 			</Display>
@@ -519,9 +530,9 @@ Any inquiries can be addressed to:
 				<Decimals>3</Decimals>
 				<Positions>
 					<Position>
-						<Page>General</Page>
+						<Page>Decoder</Page>
 						<Column>0</Column>
-						<Row>12</Row>
+						<Row>2</Row>
 					</Position>
 				</Positions>
 				<Range>
@@ -556,9 +567,9 @@ Any inquiries can be addressed to:
 				<RTDisplay>true</RTDisplay>
 				<Positions>
 					<Position>
-						<Page>General</Page>
+						<Page>Decoder</Page>
 						<Column>0</Column>
-						<Row>13</Row>
+						<Row>3</Row>
 					</Position>
 				</Positions>
 			</Display>
@@ -601,9 +612,9 @@ Any inquiries can be addressed to:
 				<RTDisplay>true</RTDisplay>
 				<Positions>
 					<Position>
-						<Page>General</Page>
+						<Page>Decoder</Page>
 						<Column>0</Column>
-						<Row>13</Row>
+						<Row>3</Row>
 					</Position>
 				</Positions>
 			</Display>
@@ -662,9 +673,9 @@ Any inquiries can be addressed to:
 				<Units>px</Units>
 				<Positions>
 					<Position>
-						<Page>General</Page>
+						<Page>Decoder</Page>
 						<Column>0</Column>
-						<Row>14</Row>
+						<Row>4</Row>
 					</Position>
 				</Positions>
 				<Range>
@@ -706,9 +717,9 @@ Any inquiries can be addressed to:
 				<Units>px</Units>
 				<Positions>
 					<Position>
-						<Page>General</Page>
+						<Page>Decoder</Page>
 						<Column>0</Column>
-						<Row>15</Row>
+						<Row>5</Row>
 					</Position>
 				</Positions>
 				<Range>
@@ -779,9 +790,9 @@ Any inquiries can be addressed to:
 				<RTDisplay>true</RTDisplay>
 				<Positions>
 					<Position>
-						<Page>General</Page>
+						<Page>Encoder</Page>
 						<Column>0</Column>
-						<Row>2</Row>
+						<Row>0</Row>
 					</Position>
 				</Positions>
 			</Display>
@@ -798,14 +809,9 @@ Any inquiries can be addressed to:
 				<RTDisplay>true</RTDisplay>
 				<Positions>
 					<Position>
-						<Page>General</Page>
+						<Page>Decoder</Page>
 						<Column>0</Column>
-						<Row>2</Row>
-					</Position>
-					<Position>
-						<Page>General</Page>
-						<Column>0</Column>
-						<Row>10</Row>
+						<Row>0</Row>
 					</Position>
 				</Positions>
 			</Display>
@@ -824,14 +830,14 @@ Any inquiries can be addressed to:
 					Indeed, Cube only uses the positions in order to potentially group a title begin to a title end.-->
 				<Positions>
 					<Position>
-						<Page>General</Page>
+						<Page>Encoder</Page>
 						<Column>0</Column>
-						<Row>8</Row>
+						<Row>6</Row>
 					</Position>
 					<Position>
-						<Page>General</Page>
+						<Page>Decoder</Page>
 						<Column>0</Column>
-						<Row>16</Row>
+						<Row>6</Row>
 					</Position>
 				</Positions>
 			</Display>
